@@ -1,29 +1,148 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-<meta charset="utf-8">
-<title>テスト</title>
+    <meta charset="utf-8">
+    <title>テスト</title>
 
-<!-- Import JS/jQuery Library -->
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <!-- Import JS/jQuery Library -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
+
 <body>
-<canvas class="canvas" width="600" height="400"></canvas>
-<!-- START Header Area -->
-<header></header>
-<!-- END Header Area -->
+    <fieldset>
+        <legend>ブランド</legend>
 
-<!-- START Main Area -->
-<main></main>
-<!-- END Main Area -->
+        <div>
+            <input type="radio" id="idolmaster" name="brand" value="idolmaster" checked />
+            <label for="idolmaster">アイドルマスター</label>
+        </div>
 
-<!-- START Footer Area -->
-<footer></footer>
-<!-- END Footer Area -->
+        <div>
+            <input type="radio" id="cinderella" name="brand" value="cinderella" />
+            <label for="cinderella">シンデレラガールズ</label>
+        </div>
+
+        <div>
+            <input type="radio" id="millionlive" name="brand" value="millionlive" />
+            <label for="millionlive">ミリオンライブ</label>
+        </div>
+
+        <div>
+            <input type="radio" id="sidem" name="brand" value="sidem" />
+            <label for="sidem">SideM</label>
+        </div>
+
+        <div>
+            <input type="radio" id="shinycolors" name="brand" value="shinycolors" />
+            <label for="shinycolors">シャイニーカラーズ</label>
+        </div>
+
+        <div>
+            <input type="radio" id="gakuen" name="brand" value="gakuen" />
+            <label for="gakuen">学園アイドルマスター</label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>レア度</legend>
+
+        <div>
+            <input type="radio" id="SSR" name="rarity" value="SSR" checked />
+            <label for="SSR">SSR</label>
+        </div>
+
+        <div>
+            <input type="radio" id="SR" name="rarity" value="SR" />
+            <label for="SR">SR</label>
+        </div>
+
+        <div>
+            <input type="radio" id="R" name="rarity" value="R" />
+            <label for="R">R</label>
+        </div>
+
+        <div>
+            <input type="radio" id="N" name="rarity" value="N" />
+            <label for="N">N</label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>カードの種類</legend>
+
+        <div>
+            <input type="radio" id="dress" name="category" value="dress" checked />
+            <label for="dress">衣装</label>
+        </div>
+
+        <div>
+            <input type="radio" id="accessory" name="category" value="accessory" />
+            <label for="accessory">アクセサリー</label>
+        </div>
+
+        <div>
+            <input type="radio" id="support" name="category" value="support" />
+            <label for="support">サポート</label>
+        </div>
+
+        <div>
+            <input type="radio" id="apeal" name="category" value="apeal" />
+            <label for="apeal">SPアピール</label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>カードの向き</legend>
+
+        <div>
+            <input type="radio" id="tate" name="muki" value="tate" checked />
+            <label for="tate">縦向き</label>
+        </div>
+
+        <div>
+            <input type="radio" id="yoko" name="muki" value="yoko" />
+            <label for="yoko">横向き</label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>アイドルの名前</legend>
+        <div>
+            <input type="text" id="idolname" name="idolname" />
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>カードの名前</legend>
+        <div>
+            <input type="text" id="cardname" name="cardname" />
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>背景画像</legend>
+        <div>
+            <input type="file" id="bgimage" name="bgimage" accept="image/png, image/jpeg" />
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>アイドル画像</legend>
+        <div>
+            <input type="file" id="idolimage" name="idolimage" accept="image/png, image/jpeg" />
+        </div>
+    </fieldset>
+    <canvas class="canvas" width="600" height="400"></canvas>
+    <!-- START Header Area -->
+    <header></header>
+    <!-- END Header Area -->
+
+    <!-- START Main Area -->
+    <main></main>
+    <!-- END Main Area -->
+
+    <!-- START Footer Area -->
+    <footer></footer>
+    <!-- END Footer Area -->
 
 
-<!-- Import JS -->
-<script src="js/main.js"></script>
+    <!-- Import JS -->
+    <script src="js/main.js"></script>
 
 </body>
+
 </html>
